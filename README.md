@@ -41,10 +41,12 @@ GP17 **=>** BUTTON **<=** GP18
 * The following packages are required: scons gcc-arm-none-eabi libncurses5-dev
 
 ```shell
+git clone git@github.com:skkily/raspberryPico_FlashCopier.git
+cd raspberryPico_FlashCopier
 ./start.sh
 cd ./Pico_flashCPR/bsp/raspberry_pico/
 source ~/.env/env.sh
-pkg --update
+pkgs --update
 scons
 ```
 
