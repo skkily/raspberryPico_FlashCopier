@@ -170,7 +170,7 @@ int main(void)
     int count = 0;
     while (1)
     {
-    	if (PIN_HIGH == rt_pin_read(17))
+    	if (PIN_HIGH == rt_pin_read(BTN_IN))
 		{
 		    rt_pin_write(LED_PIN, 1);
 			result = copy_flash(0x100000, 0x200000);
