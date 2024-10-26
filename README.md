@@ -3,7 +3,7 @@
 ![IMG_8604](raspberryPico_flashCopier.assets/IMG_8604-6208718.jpeg)
 
 * It copy data from the source flash to the target flash.
-* For the data to be copied, compare them according to the 4KB size. If the data does not match, copy it.
+* Befor the data to be copied, read back and compare them according to the 4KB size. If the data does not match, copy it.
 * Enter cpf in the serial terminal to copy all the data in the source flash to the target flash.
 * Press the button to copy the data from offset 0x100000 to 0x300000 in the source flash to the target flash.
 
